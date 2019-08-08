@@ -1,0 +1,265 @@
+.navbar-nav {
+    float: right;
+}
+body{
+    height: 5000px
+}
+nav
+{
+    border-radius: 0 !important
+}
+/* start header scope */
+.upper_nav
+{
+    padding: 10px
+}
+
+
+/* end header scope */
+/* Start Main Rulez */
+
+body {
+	background-color: #F4F4F4;
+	font-size: 16px;
+}
+.ds-none
+{
+    display: none !important;
+}
+.asterisk {
+	font-size: 30px;
+    position: absolute;
+    right: 30px;
+    top: 8px;
+    color: #D20707;
+}
+
+.nice-message {
+	padding: 10px;
+	background-color: #FFF;
+	margin: 10px 0;
+	border-left: 5px solid #080;
+}
+
+/* End Main Rulez */
+/*start header scope  */
+
+.thumbnail .price
+{
+        position: absolute;
+    font-weight: bold;
+    background: #FFF;
+    top: 8px;
+    border-radius: 0 5px 5px 0;
+    padding: 2px;
+}
+
+/*end header scope */
+/* start header section*/
+.Name
+{
+  margin-right: 10px;
+  display: inline-block;
+}
+/* end header section*/
+
+
+/* Start Bootstrap Edits */
+
+.navbar {
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+.nav > li > a,
+.navbar-brand {
+	padding: 15px 12px;
+}
+
+.navbar-brand {
+	font-size: 1em;
+}
+
+.navbar-inverse .navbar-nav > .open>a,
+.navbar-inverse .navbar-nav > .open>a:focus,
+.navbar-inverse .navbar-nav > .open>a:hover,
+.dropdown-menu {
+    background-color: #3498db;
+}
+
+.dropdown-menu {
+	min-width: 180px;
+	padding: 0;
+	font-size: 1em;
+	border: none;
+	border-radius: 0;
+}
+
+.dropdown-menu > li > a {
+	color: #FFF;
+	padding: 10px 15px;
+}
+
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover {
+    color: #FFF;
+    background-color: #8e44ad;
+}
+
+.form-control {
+	position: relative;
+}
+
+/* End Bootstrap Edits */
+
+
+h1 {
+	font-size: 55px;
+	margin: 40px 0;
+	font-weight: bold;
+	color: #666;
+}
+
+
+/* End Members Page */
+
+/* start login form */
+
+
+
+.error
+{    width: 300px;
+    margin: 10px auto;
+    font-size: 12px;
+
+}
+.error .ErrorMsg
+{
+    padding: 10px;
+    background: #FFF;
+    border-left: 3px solid#e74c3c;
+    margin-bottom: 10px;
+}
+.page-login h1 span[data-class="login"].active
+{
+    color:#2b5992
+}
+.page-login h1 span[data-class="SignUp"].active
+{
+    color:#5cb85c
+}
+.page-login h1 span
+{
+    cursor: pointer;
+}
+Form {
+
+	margin: 100px auto  0 auto;
+    }
+.main-form
+ {
+   width:300px;
+ }
+
+Form h4 {
+	color: #888;
+}
+
+Form input {
+	margin-bottom: 10px;
+}
+
+Form .form-control {
+	background-color: #EAEAEA;
+}
+
+
+/*end login form */
+
+
+/* profile scope*/
+.contaienr .information{
+    margin-top: 20px!important ;
+}
+/* profile scope*/
+.contaienr .information ul{
+ margin: 0;
+    padding: 0;
+}
+.contaienr .information ul li
+{
+padding: 10px;
+}
+.panel
+{
+    border-radius: 0 !important;
+}
+/* profile scope*/
+/* categories scope */
+.thumbnail .DateOfItem
+{
+        text-align: right;
+    font-size: 12px;
+    color: #777;
+    font-weight: bold;
+}
+/* categories scope*/
+/* items scope */
+
+.info  p,.info ul li,.info h4
+{
+        padding: 10px 5px;
+}
+.info h4
+{
+    padding: 0
+}
+
+.info ul li:nth-child(odd)
+{
+    background: #FFF;
+}
+.add-comment form textarea
+{
+    width: 450px;
+    height: 100px;
+    display: block;
+    margin: 0 0 10px ;
+}
+.comment-box img
+{   width: 100px;
+    margin-bottom: 10px;
+    border: 3px solid#FFF;
+
+}
+.comment-box  p.lead
+{
+  background: #FFF;
+  padding: 10px;
+  text-transform: capitalize;
+  margin: 29px 0 0 0;
+  position: relative;
+}
+.comment-box  p.lead:before
+{
+  width: 0;
+      height: 0;
+      border-width: 15px;
+      border-style: solid;
+      content: "";
+      border-color: transparent #fff transparent transparent;
+      position: absolute;
+      left: -30px;
+      top: 7px;
+    }
+.napproved
+{
+  position: absolute;
+color: #FFF;
+top: 35px;
+background-color: red;
+border-radius: 2px;
+padding: 0 02px;
+opacity: 0.5;
+}
+/* items scope */
